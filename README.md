@@ -1,30 +1,29 @@
-# Oráculo DSI 🧬
+# Oráculo DSI 🧠💻
 
-**Autor:** Rodríguez Dynamics Lab  
-**Año:** 2026  
-**Versión:** 1.0  
-**Licencia:** MIT  
+## Author Information
+- Author: [Your Name Here]
 
----
+## Features
+- Freemium model offering basic and premium features.
 
-## Descripción
+## Installation Steps
+1. Clone the repository using `git clone <repository-link>`.
+2. Navigate to the project directory.
+3. Install the required dependencies with `npm install`.
+4. Start the application using `npm start`.
 
-Oráculo DSI es un motor de análisis de datos unificado que convierte archivos de señales en reportes visuales y PDFs interpretativos.  
-Diseñado para **científicos, ingenieros y laboratorios**, permite:
+## API Endpoints
+| Method | Endpoint         | Description                |
+|--------|------------------|----------------------------|
+| GET    | /api/resource    | Retrieve resource          |
+| POST   | /api/resource    | Create a new resource      |
+| PUT    | /api/resource/{id}| Update an existing resource |
+| DELETE | /api/resource/{id}| Delete a resource          |
 
-- Analizar datos de CSV, TXT y Excel.  
-- Generar reportes PDF con **gráficas protegidas con marca de agua DSI**.  
-- Probar el sistema con una **vista previa freemium** de una señal.  
-- Automatizar pagos y control de acceso a los reportes completos vía Stripe.
+## Security Guidelines
+- Ensure to validate user inputs.
+- Implement authentication for sensitive endpoints.
+- Regularly update dependencies to patch known vulnerabilities.
 
-El sistema sigue la filosofía de la **Ley Unificada DSI**, optimizando la interpretación de señales complejas.
-
----
-
-## Instalación
-
-1. Clonar el repositorio:
-
-```bash
-git clone https://github.com/tu-usuario/oraculo_x.git
-cd oraculo_x
+## License
+This project is licensed under the MIT License.
