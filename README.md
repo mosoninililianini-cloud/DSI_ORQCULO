@@ -1,29 +1,39 @@
-# Oráculo DSI 🧠💻
+# Official Documentation for DSI_ORQCULO
 
-## Author Information
-- Author: [Your Name Here]
+## Installation Instructions
 
-## Features
-- Freemium model offering basic and premium features.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/mosoninililianini-cloud/DSI_ORQCULO.git
+   cd DSI_ORQCULO
+   ```
 
-## Installation Steps
-1. Clone the repository using `git clone <repository-link>`.
-2. Navigate to the project directory.
-3. Install the required dependencies with `npm install`.
-4. Start the application using `npm start`.
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-## API Endpoints
-| Method | Endpoint         | Description                |
-|--------|------------------|----------------------------|
-| GET    | /api/resource    | Retrieve resource          |
-| POST   | /api/resource    | Create a new resource      |
-| PUT    | /api/resource/{id}| Update an existing resource |
-| DELETE | /api/resource/{id}| Delete a resource          |
+## Deployment Instructions
 
-## Security Guidelines
-- Ensure to validate user inputs.
-- Implement authentication for sensitive endpoints.
-- Regularly update dependencies to patch known vulnerabilities.
+1. **Build the application**:
+   ```bash
+   npm run build
+   ```
 
-## License
-This project is licensed under the MIT License.
+2. **Run the application**:
+   ```bash
+   npm start
+   ```
+   You can access it on `http://localhost:3000`.
+
+## Usage Instructions
+
+- **To use the application**, make sure your server is running and navigate to the above URL in your web browser.
+- **Follow the on-screen instructions** to utilize the features of DSI_ORQCULO.
+
+### Additional Resources
+- For more details, check the [Wiki](https://github.com/mosoninililianini-cloud/DSI_ORQCULO/wiki) for advanced configurations and FAQs.
+
+---
+
+This documentation is effective as of 2026-02-21. Please check back for updates.
